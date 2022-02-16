@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: Bahnschrift, sans-serif;
+    font-weight: bold;
+    background-color: rgba(30, 50, 94, 0.253);
+    background-repeat: repeat;
+}
+
+a.urll{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 0 1px rgb(64, 86, 134), 
+    0 1px 1px rgb(64, 86, 134), 
+    -1px 0 1px rgb(64, 86, 134), 
+    0 -1px 1px rgb(64, 86, 134);
+}
+
+p{
+    margin: 10px 0;
+    font-family: Bahnschrift, sans-serif;
+    font-weight: bold;
+}
+
+.shapka1{
+    background: radial-gradient(rgb(64, 86, 134) ,rgba(64, 86, 134, 0.76) ,rgba(64, 86, 134));
+}
+table.shapka3{
+    border-style: solid;
+    border-width: 20px;
+    border-color: rgba(211, 136, 136, 0);
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+.text1{
+    font-size: 250%;
+    font-family: Bahnschrift, sans-serif;
+    text-align: center;
+    padding-left: 30px;
+color: white;
+ -ms-user-select: none;
+ -moz-user-select: none;
+ -khtml-user-select: none;
+ -webkit-user-select: none;
+}
+
+.zagolovok{
+        font-family: Bahnschrift;
+    color: rgb(207, 228, 223);
+    text-shadow: 2px 0 1px rgb(64, 86, 134), 
+    0 2px 1px rgba(64, 86, 134), 
+    -2px 0 1px rgb(64, 86, 134), 
+    0 -2px 1px rgb(64, 86, 134);
+    font-size: 30px;
+    font-style: Bahnschrift;
+}
+
+
+table.content1 td{
+    vertical-align: top;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 100% ;
+}
+
+table.content2 {
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+
+.regis{
+    flex-direction: column;
+    width: 200px;
+    font-family: Bahnschrift, sans-serif;
+    font-weight: bolder;
+}
+
+.regis2{
+    width: 10px;
+    font-family: Bahnschrift, sans-serif;
+    font-weight: bolder;
+}
+
+.inf{
+    display: inline-block;
+    padding-top: 20px;
+    font-family: Bahnschrift, sans-serif;
+    font-weight: bold;
+    background: radial-gradient(rgb(64, 86, 134) ,rgba(64, 86, 134, 0.76) ,rgba(64, 86, 134));
+    width: auto;
+    height: auto;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(130, 81, 74, 0);
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    
+}
+.inf1{
+    display: inline-block;
+    padding-top: 20px;
+    font-family: Bahnschrift, sans-serif;
+    font-weight: bold;
+    background: radial-gradient(rgb(64, 86, 134) ,rgba(64, 86, 134, 0.76) ,rgba(64, 86, 134));
+    width: auto;
+    height: auto;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(130, 81, 74, 0);
+    border-radius: 10px;
+    
+}
+
+.check{
+    width:20px;
+    height:20px;
+    vertical-align:middle;
+    cursor:pointer;
+}
+
+input{
+  margin: 10px 0;  
+  padding: 5px;
+  border: unset;
+  border-bottom: 3px solid rgb(64, 86, 134);
+  outline: none;
+    cursor:text;
+  font-family: Bahnschrift, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.msg{
+    font-family: Bahnschrift, sans-serif;
+    font-size: 80%;
+    border: 5px solid rgb(64, 86, 134);
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+button{
+    font-family: Bahnschrift, sans-serif;
+    font-weight: bold;
+    padding: 8px;
+    background: rgb(48, 48, 48);
+    border: unset;
+    cursor: pointer;
+    color: white;
+    box-shadow: 2px 2px 2px 1px rgb(64, 86, 134);
+    border-radius: 10px;
+}
+
+.logout{
+    color: rgb(48, 48, 48);
+}
+.textc{
+    font-size: 25px;
+}
