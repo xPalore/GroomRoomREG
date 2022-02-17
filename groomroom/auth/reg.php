@@ -28,7 +28,6 @@
             <tr>
                 <td>
 
-
                     <center>
                         <div class="regg">
                             <form action="signup.php" method="post">
