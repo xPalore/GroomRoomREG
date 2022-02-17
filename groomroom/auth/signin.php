@@ -1,7 +1,7 @@
 <?php
 session_start(); //запуск сессии
 require_once '../conn/connect.php';
-//подключение к БД
+//подключение к БД:
 $login=$_POST['login'];
 $password=$_POST['password'];
 $check_user = mysqli_query($connect, "SELECT * FROM `users` WHERE `login`='$login' and `password`='$password'");
