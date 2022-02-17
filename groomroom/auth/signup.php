@@ -1,7 +1,7 @@
 <?php
 // Инициация запуска сессии
 session_start();
-// Подключение к Базе Данных
+// Подключение к Базе Данных:
 require_once '../conn/connect.php';
 $fio = $_POST['fio'];
 $login=$_POST['login'];
